@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-bottom: 30px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  background-color: black;
+  color: #ffde00;
+}
+
+.Pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Pokemon {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.image {
+  background-color: #c7c7c7;
+  height: 150px;
+  border-radius: 4px 4px 0 0;
+}
+.name {
+  background-color: #ffde00;
+  padding: 6px 3px;
+  border-radius: 0 0 4px 4px;
+}
